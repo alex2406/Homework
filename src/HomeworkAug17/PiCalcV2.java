@@ -13,13 +13,8 @@ public class PiCalcV2 { //broken
     public double piCalc(int limit) {
         double sum = 0;
         for (double i = 0; i <= limit; i++) {
-            double v = (Math.pow(-1, i + 1)) / ((2 * i) - 1);
-            if (i % 2 != 0){
-                sum = sum - v;
-                continue;
-            }
-            sum = sum + v;
+            sum += Math.pow(-1,i+1) / (2*i - 1);
         }
-        return sum;
+        return 4*sum;
     }
 }
