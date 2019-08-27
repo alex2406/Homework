@@ -1,3 +1,5 @@
+package HomeworkJul.HomeworkJul29;
+
 import java.util.Scanner;
 
 public class loanCalculator {

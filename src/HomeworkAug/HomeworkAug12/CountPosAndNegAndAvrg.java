@@ -1,11 +1,11 @@
-package Domashka;
+package HomeworkAug.HomeworkAug12;
 
 import java.util.Scanner;
 
 public class CountPosAndNegAndAvrg {
     private static boolean x ;
     private static int n1=0 ;
-    private static int num=0 ;;
+    private static int num=0 ;
     private static int pos=0 ;
     private static int neg=0 ;
     private static int sum=0 ;

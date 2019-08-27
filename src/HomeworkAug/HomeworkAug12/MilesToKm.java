@@ -1,4 +1,4 @@
-package Domashka;
+package HomeworkAug.HomeworkAug12;
 
 public class MilesToKm {
     private static double km=0 ;

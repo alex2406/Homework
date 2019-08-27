@@ -1,4 +1,4 @@
-package HomeworkAug20.ISBN;
+package HomeworkAug.HomeworkAug20.ISBN;
 
 public class ISBNdemo {
     public static void main(String[] args) {

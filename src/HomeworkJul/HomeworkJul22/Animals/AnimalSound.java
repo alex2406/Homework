@@ -1,4 +1,4 @@
-package Animals;
+package HomeworkJul.HomeworkJul22.Animals;
 
 public class AnimalSound {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HomeworkJul17;
+package HomeworkJul.HomeworkJul17;
 
 public class Exercise227
 	{

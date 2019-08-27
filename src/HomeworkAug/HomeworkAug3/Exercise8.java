@@ -1,4 +1,4 @@
-package HomeworkAug3;
+package HomeworkAug.HomeworkAug3;
 
 class Exercise8{
     static int a = 0;

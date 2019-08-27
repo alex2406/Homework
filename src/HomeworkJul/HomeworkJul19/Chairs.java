@@ -1,4 +1,4 @@
-package HomeworkJul19;
+package HomeworkJul.HomeworkJul19;
 
 public class Chairs
 {

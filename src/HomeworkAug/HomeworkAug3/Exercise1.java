@@ -1,4 +1,4 @@
-package HomeworkAug3;
+package HomeworkAug.HomeworkAug3;
 
 class Exercise1 {
     int a;

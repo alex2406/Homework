@@ -1,4 +1,4 @@
-package Domashka;
+package HomeworkAug.HomeworkAug12;
 
 public class NumDividBy5And6 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HomeworkJul22;
+package HomeworkJul.HomeworkJul22;
 
 public class FightSong
 {

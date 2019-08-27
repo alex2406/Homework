@@ -1,4 +1,4 @@
-package Parent;
+package HomeworkJul.HomeworkJul22.Parent;
 
 
 public abstract class Parent {

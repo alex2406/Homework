@@ -1,4 +1,4 @@
-package Animals;
+package HomeworkJul.HomeworkJul22.Animals;
 
 class Dog extends Animals {
     public void animalSound(){

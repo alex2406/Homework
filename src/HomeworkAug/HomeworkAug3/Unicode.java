@@ -1,4 +1,4 @@
-package HomeworkAug3;
+package HomeworkAug.HomeworkAug3;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Unicode {
         System.out.println("Enter a character");
         Scanner input = new Scanner(System.in);
         char ch = input.next().charAt(0);
-        int castAscii = (int) ch;
+        int castAscii = ch;
         System.out.println("The ASCII value of " + ch + " is: " + castAscii);
  }
 }

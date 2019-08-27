@@ -1,4 +1,4 @@
-package HomeworkJul29;
+package HomeworkJul.HomeworkJul29;
 
 public class Sphere{
 

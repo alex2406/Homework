@@ -1,4 +1,4 @@
-package doljoc;
+package HomeworkAug.HomeworkAug5;
 
 import java.util.Scanner;
 

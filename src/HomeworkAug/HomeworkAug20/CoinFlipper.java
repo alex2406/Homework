@@ -1,4 +1,4 @@
-package HomeworkAug20;
+package HomeworkAug.HomeworkAug20;
 
 public class CoinFlipper {
     public static void main(String[] args) {

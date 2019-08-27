@@ -1,4 +1,4 @@
-package HomeworkAug3;
+package HomeworkAug.HomeworkAug3;
 
 import java.util.Scanner;
 class Sum{

@@ -1,4 +1,4 @@
-package HomeworkAug17;
+package HomeworkAug.HomeworkAug17;
 
 import java.util.Calendar;
 import java.util.Locale;

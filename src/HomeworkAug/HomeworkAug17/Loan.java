@@ -1,4 +1,4 @@
-package HomeworkAug17;
+package HomeworkAug.HomeworkAug17;
 
 public class Loan {
     public static void main(String[] args) {

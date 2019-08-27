@@ -1,4 +1,4 @@
-package Domashka;
+package HomeworkAug.HomeworkAug12;
 
 public class KgToPounds {
     private static double kg1=1 ;

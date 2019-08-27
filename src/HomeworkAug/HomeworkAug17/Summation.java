@@ -1,4 +1,4 @@
-package HomeworkAug17;
+package HomeworkAug.HomeworkAug17;
 
 public class Summation {
     int n1 = 1, n2 = 2;
