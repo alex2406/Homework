@@ -1,4 +1,4 @@
-package HomeworkAug.HomeworkAug21;
+package HomeworkAug.kAug21;
 
 import java.util.Scanner;
 
@@ -12,12 +12,10 @@ public class RandomNumGuessingGame {
 
         Scanner s = new Scanner(System.in);
         System.out.println("Input a num between 1-10000 : ");
-
-        boolean status = true;
         double randomNum = Math.random();
         randomNum = randomNum * 10000 + 1;
         int randomInt1 = (int) randomNum;
-        for (int i = 0; status; i++) {
+        for (int i = 0;; i++) {
             int num = s.nextInt();
             if (num == randomInt1)
                 break;

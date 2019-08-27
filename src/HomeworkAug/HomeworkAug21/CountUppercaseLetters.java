@@ -1,4 +1,4 @@
-package HomeworkAug.HomeworkAug21;
+package HomeworkAug.kAug21;
 
 import java.util.Scanner;
 
