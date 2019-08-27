@@ -10,9 +10,9 @@ public class CountUppercaseLetters {
     }
     private void UpperCaseCounter (){
 
-        Scanner keyboard = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.println("Give a string ");
-        String input=keyboard.nextLine();
+        String input=s.nextLine();
 
         int upperCase=0;
         int lowerCase=0;
