@@ -1,4 +1,4 @@
-package HomeworkAug.kAug21;
+package HomeworkAug.Aug21;
 
 public class DiceGame {
     public static void main(String[] args) {

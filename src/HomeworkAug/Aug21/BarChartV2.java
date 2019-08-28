@@ -1,4 +1,4 @@
-package HomeworkAug.kAug21;
+package HomeworkAug.Aug21;
 
 public class BarChartV2 {
     public static void main(String[] args) {
