@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class CountUppercaseLetters {
     public static void main(String[] args) {
         CountUppercaseLetters c = new CountUppercaseLetters();
-        c.UpperCaseCounter();
+        c.countUpperCase();
 
     }
-    private void UpperCaseCounter (){
+    private void countUpperCase(){
 
         Scanner s = new Scanner(System.in);
         System.out.println("Give a string ");

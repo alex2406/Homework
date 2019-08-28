@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class RandomNumGuessingGame {
     public static void main(String[] args) {
         RandomNumGuessingGame r = new RandomNumGuessingGame();
-        RandomNum();
+        computeRandomNum();
     }
 
-    static void RandomNum() {
+    static void computeRandomNum() {
 
         Scanner s = new Scanner(System.in);
         System.out.println("Input a num between 1-10000 : ");

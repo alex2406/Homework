@@ -7,11 +7,8 @@ public class RockPaperScissorsGame {
 
     public static void main(String[] args) {
         RockPaperScissorsGame r = new RockPaperScissorsGame();
-        int i1 = r.PersMove();
-        int i2 = r.ComputerMove();
-
-        System.out.println(i1);
-        System.out.println(i2);
+        int i1 = r.persMoveCompute();
+        int i2 = r.computeMoveComputer();
 
         if (i1==i2)
             System.out.println("Draw");
@@ -31,13 +28,13 @@ public class RockPaperScissorsGame {
 
 
 
-    public int ComputerMove() {
+    public int computeMoveComputer() {
         double randomCompMove = Math.random();
         randomCompMove = randomCompMove * 3 + 1;
         int randomCompMoveInt = (int) randomCompMove;
      return randomCompMoveInt;
     }
-    public int PersMove() {
+    public int persMoveCompute() {
         Scanner s = new Scanner(System.in);
         System.out.println("Whats your move ?");
         String pearsMoveString = s.next();

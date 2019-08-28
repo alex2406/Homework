@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class CountConsOrVowelV2 {
     public static void main(String... args) {
         CountConsOrVowelV2 c = new CountConsOrVowelV2();
-        c.ConsOrVowel();
+        c.separateConsOrVowel();
     }
 
 
-    public void ConsOrVowel() {
+    public void separateConsOrVowel() {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter a string");
         String str = s.next();
