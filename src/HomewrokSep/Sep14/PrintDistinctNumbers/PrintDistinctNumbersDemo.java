@@ -2,6 +2,7 @@ package HomewrokSep.Sep14.PrintDistinctNumbers;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class PrintDistinctNumbersDemo {
 
@@ -43,6 +44,10 @@ public class PrintDistinctNumbersDemo {
             ar1[i] = anInt ;
         }
 
+        int[] noDuplicates = IntStream.of(ar1).distinct().toArray();
+
+        System.out.println(Arrays.toString(noDuplicates));
+
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++)
                 if (prevInt!= ar1[j])
@@ -55,7 +60,7 @@ public class PrintDistinctNumbersDemo {
             if (isFound)
                 arrayOfUniqueElements[i] = anInt;
             else
-                System.out.println("yo mom gay");
+                System.out.println(prevInt + " Not unique");
         }
         System.out.println(Arrays.toString(arrayOfUniqueElements));
     }
